@@ -402,7 +402,6 @@ DebugMode="*res://scripts/autoload/DebugMode.gd"
 [debug]
 
 gdscript/warnings/unused_class_variable=true
-gdscript/warnings/return_value_discarded=false
 
 [display]
 
@@ -692,6 +691,10 @@ debug_button={
 
 translations=PoolStringArray( "res://localization/loca.de.translation" )
 locale_filter=[ 1, [ "de" ] ]
+
+[mono]
+
+project/assembly_name="A Little Game Called Mario"
 
 [physics]
 
